@@ -8,23 +8,33 @@
 
 <body>
   <h1>Fill in the blanks to write your story!</h1>
-  <form>
+  <form id="userInfo">
     <label for="ageInput">Your age?</label>
     <input id="ageInput" type="text" name="userAge">
     <label for="heightInput">Height in inches?</label>
     <input id="heightInput" type="text" name="userHeight">
-    <label for="petInput">Favorite pet (name and animal type)?</label>
-    <input id="petInput" type="text" name="userFavPet">
-
+    <!-- <label for="petInput">Favorite pet (name and animal type)?</label>
+    <input id="petInput" type="text" name="userFavPet"> -->
     <button type="submit">Pair me!</button>
   </form>
-
   <div id="quiz" class="hidden">
-    <h1>Celeb D8ing Quiz</h1>
-    <p>
-      
-    </p>
+    <h1>Celeb D8ing Quiz Results!</h1> 
+
+    <div id="Chris Evans" class="hidden">
+      <p>You Have Been Matched!</p> 
+    </div>
+    <div id="Lily James" class="hidden">
+      <p>You Have Been Matched!</p>
+    </div>
+    <div id="Hank Green" class="hidden">
+      <p>You Have Been Matched!</p>
+    </div>
+    <div id="Sorry" class="hidden">
+      <p>Sorry we have not found you a match</p>
+    </div>
+
   </div>
+
 </body>
 
 </html>
